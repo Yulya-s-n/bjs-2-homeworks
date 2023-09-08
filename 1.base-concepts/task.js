@@ -11,21 +11,21 @@ function solveEquation(a, b, c) {
 	}
 
 	if (d > 0) {
-	   let firstAnswer = (-b + Math.sqrt(d)) / (2 * a);
+	let firstAnswer = (-b + Math.sqrt(d)) / (2 * a);
     	let secondAnswer = (-b - Math.sqrt(d)) / (2 * a);
     	arr.push(firstAnswer, secondAnswer);
     	console.log(arr);
-		return arr;
-		}
+	return arr;
+	}
 
     if (d === 0) {
-		let answer = -b / (2 * a);
-		arr.push(answer);
-		console.log(arr);
-		return arr;
-		}
-		return arr;
+	let answer = -b / (2 * a);
+	arr.push(answer);
+	console.log(arr);
+	return arr;
 	}
+	return arr;
+}
 
 
 
